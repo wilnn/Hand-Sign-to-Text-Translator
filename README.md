@@ -31,15 +31,13 @@
     * note: OpenCV version 4.10.0.84 only works with numpy version 1.26.4. Using numpy version 2.0 will cause error. 
 
 ## How It Works
-* The pre-trained Google's Mediapipe hand landmarker model is used to detect the hand in images obtained from the camera. Then, the hand is passed to the CNN model that I trained to get an output that is a number from 0-27, with 0-25 is the represent the coresspoding alphabet letters, 26 means deleting the previous letter, and 27 means adding space to write the next words.
+* The pre-trained Google's Mediapipe hand landmarker model is used to detect the hand in images obtained from the camera. Then, the hand is passed to the CNN model that I trained to get an output that is a number from 0-27, with 0-25 is the represent the corresponding alphabet letters, 26 means deleting the previous letter, and 27 means adding space to write the next words.
 
 ## Examples/Demonstration
-![ASL alphabet](image.png)
-<video width="320" height="240" controls>
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![image](https://github.com/user-attachments/assets/65565ffe-99b3-40e4-9d37-ae966bea8e1d)
 
+https://github.com/user-attachments/assets/c3b8eac1-067c-42ba-823c-b66d034a1982
+<!--THE BLANK LINE BETWEEN THE VIDEO LINK AND THE IMAGE IS NEEDED FOR THE VIDEO TO LOAD-->
 ## Repository details
 ### Code
 * _init_.py: contains the code for the main handsign to text translator program.
