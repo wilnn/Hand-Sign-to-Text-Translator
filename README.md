@@ -53,14 +53,14 @@ https://github.com/user-attachments/assets/c3b8eac1-067c-42ba-823c-b66d034a1982
 * Each files inside was created by create_input.py file. These file contain the images of the hands that is represented as numpy arrays.
 
 ## Possible Improvements
+* The trained model can not recognize the hand sign for letters U, T, N as good as the others due to the similarity between hand signs and quality of training dataset. Better result can be achieved by having more variety dataset and increase the model depth.
 * Overall, ASL hand sign recognition is a challenging task because people have different hand size, shape, color, and slightly different ways to do the same hand sign. The more variety of the training dataset, the better the model will be. 
 
 ## license
-
-
+Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## Contact
-
+William Nguyen - ![Email](thangnguyen15700@gmail.com)
 
 ## acknowledgments
 * The dataset is obtain from Kaggle: [https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset)
