@@ -6,19 +6,13 @@
     <li>
       <a href="#About-The-Project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+      <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#How-It-Works">How It Works</a></li>
+    <li><a href="#Examples/Demonstration">Examples/Demonstration</a></li>
+    <li><a href="#Repository-details">Repository details</a></li>
+    <li><a href="#Possible-Improvements">Possible Improvements</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -31,8 +25,10 @@
 
 ### built with
 * [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.17.1-black?labelColor=orange)][TensorFlow-url]
-* [!OpenCV](https://img.shields.io/badge/OpenCV-4.10.0.84-black?labelColor=green)][OpenCV-url]
-* ![Mediapipe](https://img.shields.io/badge/Mediapipe-4.10.0.84-black?labelColor=blue)[Mediapipe-url]
+* [![OpenCV](https://img.shields.io/badge/OpenCV-4.10.0.84-black?labelColor=green)][OpenCV-url]
+* [![Mediapipe](https://img.shields.io/badge/Mediapipe-4.10.0.84-black?labelColor=blue)][Mediapipe-url]
+* [![Numpy](https://img.shields.io/badge/Numpy-1.26.4-black?labelColor=yellow)][Numpy-url]
+    * note: OpenCV version 4.10.0.84 only works with numpy version 1.26.4. Using numpy version 2.0 will cause error. 
 
 ## How It Works
 * The pre-trained Google's Mediapipe hand landmarker model is used to detect the hand in images obtained from the camera. Then, the hand is passed to the CNN model that I trained to get an output that is a number from 0-27, with 0-25 is the represent the coresspoding alphabet letters, 26 means deleting the previous letter, and 27 means adding space to write the next words.
@@ -44,7 +40,7 @@
   Your browser does not support the video tag.
 </video>
 
-## Files Breakdown
+## Repository details
 ### Code
 * _init_.py: contains the code for the main handsign to text translator program.
 * create_input.py: contains the code to create the .npy files in the processed_data directory. 
@@ -58,13 +54,17 @@
 ### processed_data
 * Each files inside was created by create_input.py file. These file contain the images of the hands that is represented as numpy arrays.
 
-## Room for Improvements
+## Possible Improvements
 * Overall, ASL hand sign recognition is a challenging task because people have different hand size, shape, color, and slightly different ways to do the same hand sign. The more variety of the training dataset, the better the model will be. 
 
-## Author/contacts
+## license
 
 
-## Acknowledgments
+
+## Contact
+
+
+## acknowledgments
 * The dataset is obtain from Kaggle: [https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset)
 
 
@@ -72,3 +72,4 @@
 [TensorFlow-url]: https://www.tensorflow.org/
 [OpenCV-url]: https://opencv.org/
 [Mediapipe-url]: https://pypi.org/project/mediapipe/
+[Numpy-url]: https://pypi.org/project/numpy/
