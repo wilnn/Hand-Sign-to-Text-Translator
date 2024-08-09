@@ -1,14 +1,5 @@
 # Hand Sign to Text Translator
 
-## About The Project
-* A program that can translate the ASL (American Sign Language) alphabet to text in real time via camera using Tensorflow, OpenCV, and Mediapipe, and can be used to write any english sentences with just hand signs.
-* A convolutional neural network (CNN) was created and trained using TensorFlow. The model was trained with about 70,000 images of 28 different handsigns. It was tested with 1,400 images and has the accuracy of 99.09%.
-
-### built with
-* [![TensorFlow][TensorFlow-shield]][TensorFlow-url]
-* [![OpenCV][OpenCV-shield]][OpenCV-url]
-* [![Mediapipe][Mediapipe-shield]][Mediapipe-url]
-
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -33,6 +24,15 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
+## About The Project
+* A program that can translate the ASL (American Sign Language) alphabet to text in real time via camera using Tensorflow, OpenCV, and Mediapipe, and can be used to write any english sentences with just hand signs.
+* A convolutional neural network (CNN) was created and trained using TensorFlow. The model was trained with about 70,000 images of 28 different handsigns. It was tested with 1,400 images and has the accuracy of 99.09%.
+
+### built with
+* [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.17.1-black?labelColor=orange)][TensorFlow-url]
+* [!OpenCV](https://img.shields.io/badge/OpenCV-4.10.0.84-black?labelColor=green)][OpenCV-url]
+* ![Mediapipe](https://img.shields.io/badge/Mediapipe-4.10.0.84-black?labelColor=blue)[Mediapipe-url]
 
 ## How It Works
 * The pre-trained Google's Mediapipe hand landmarker model is used to detect the hand in images obtained from the camera. Then, the hand is passed to the CNN model that I trained to get an output that is a number from 0-27, with 0-25 is the represent the coresspoding alphabet letters, 26 means deleting the previous letter, and 27 means adding space to write the next words.
@@ -71,4 +71,4 @@
 <!-- link-->
 [TensorFlow-url]: https://www.tensorflow.org/
 [OpenCV-url]: https://opencv.org/
-[Mediapipe-url]: https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker
+[Mediapipe-url]: https://pypi.org/project/mediapipe/
