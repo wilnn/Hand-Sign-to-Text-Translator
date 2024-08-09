@@ -48,8 +48,6 @@ https://github.com/user-attachments/assets/c3b8eac1-067c-42ba-823c-b66d034a1982
 ### models
 * **hand_landmarker.task**: Google's Mediapipe hand landmarker model that is used for hand recognition.
 * **hand_sign_translator.keras**: the model that was trained using train_model.py
-### images
-* Each directory inside contains the images corresponding to the hand sign.
 ### processed_data
 * Each file inside was created by the **create_input.py** file. These files contain images of the hands that are represented as Numpy arrays.
 
