@@ -4,16 +4,16 @@
 * A program that can translate the ASL (American Sign Language) alphabet to text in real time via camera using Tensorflow, OpenCV, and Mediapipe, and can be used to write any english sentences with just hand signs.
 * A convolutional neural network (CNN) was created and trained using TensorFlow. The model was trained with about 70,000 images of 28 different handsigns. It was tested with 1,400 images and has the accuracy of 99.09%.
 
-### built-with
-* [![TensorFlow][TensorFlow]][TensorFlow-url]
-* [![OpenCV][OpenCV]][OpenCV-url]
-* [![Mediapipe][Mediapipe]][Mediapipe-url]
+### built with
+* [![TensorFlow][TensorFlow-shield]][TensorFlow-url]
+* [![OpenCV][OpenCV-shield]][OpenCV-url]
+* [![Mediapipe][Mediapipe-shield]][Mediapipe-url]
 
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#About The Project">About The Project</a>
+      <a href="#About-The-Project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -53,9 +53,9 @@
 ### models
 * hand_landmarker.task: Google's Mediapipe hand landmarker model that is used for hand recognition.
 * hand_sign_translator.keras: the model that was trained using train_model.py
-### images:
+### images
 * Each directory inside contain the images coresspond to the handsign.
-### processed_data:
+### processed_data
 * Each files inside was created by create_input.py file. These file contain the images of the hands that is represented as numpy arrays.
 
 ## Room for Improvements
