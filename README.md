@@ -24,7 +24,7 @@
 * A program that can translate the ASL (American Sign Language) alphabet to text in real-time via camera using Tensorflow, OpenCV, and Mediapipe, can be used to write English sentences with just hand signs.
 * A convolutional neural network (CNN) was created and trained using TensorFlow. The model was trained with about 70,000 images of 28 different hand signs. It was tested with 1,400 images and has the **accuracy of 99.09%**.
 
-### built With
+### Built With
 * [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.17.1-black?labelColor=orange)][TensorFlow-url]
 * [![OpenCV](https://img.shields.io/badge/OpenCV-4.10.0.84-black?labelColor=green)][OpenCV-url]
 * [![Mediapipe](https://img.shields.io/badge/Mediapipe-4.10.0.84-black?labelColor=blue)][Mediapipe-url]
@@ -39,7 +39,7 @@
 
 https://github.com/user-attachments/assets/c3b8eac1-067c-42ba-823c-b66d034a1982
 <!--THE BLANK LINE BETWEEN THE VIDEO LINK AND THE IMAGE IS NEEDED FOR THE VIDEO TO LOAD-->
-## Repository details
+## Repository Details
 ### Code
 * **_init_.py**: contains the code for the main Hand Sign to Text Translator program.
 * **create_input.py**: contains the code to create the .npy files in the **processed_data** directory. 
@@ -55,13 +55,13 @@ https://github.com/user-attachments/assets/c3b8eac1-067c-42ba-823c-b66d034a1982
 * The trained model can not recognize the hand sign for letters U, T, and N as well as the others due to the similarity between hand signs and the quality of the training dataset. Better results can be achieved by having a more varied dataset and increasing the model depth.
 * Overall, ASL hand sign recognition is a challenging task because people have different hand sizes, shapes, colors, and slightly different ways to do the same hand sign. The more variety of the training dataset, the better the model will be. 
 
-## license
+## License
 Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## Contact
 William Nguyen - thangnguyen15700@gmail.com
 
-## acknowledgments
+## Acknowledgments
 * The dataset is obtained from Kaggle: [https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset)
 
 <!-- link-->
