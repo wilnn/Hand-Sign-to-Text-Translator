@@ -64,7 +64,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 William Nguyen - thangnguyen15700@gmail.com
 
 ## acknowledgments
-* The dataset is obtain from Kaggle: [https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset)
+* The dataset is obtained from Kaggle: [https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset)
 
 <!-- link-->
 [TensorFlow-url]: https://www.tensorflow.org/
