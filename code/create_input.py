@@ -114,7 +114,7 @@ def main():
     load_dotenv()
     create_input_file('testing', os.getenv('trainPath'))
     create_input_file('testing', os.getenv('testPath'))
-    create_input_file('testing', os.getenv('validationPath'))
+    #create_input_file('testing', os.getenv('validationPath'))
 
 if __name__ == "__main__":
     main()
